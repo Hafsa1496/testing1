@@ -3,48 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Welcome to my GitHub Blog.">
+    <meta name="description" content="Welcome to the Op-Ed Blog! Share your thoughts.">
     <meta name="author" content="Your Name">
-    <title>My GitHub Blog</title>
+    <title>Op-Ed Blog</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <header>
-        <nav>
-            <ul class="nav-menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <h1>Welcome to My GitHub Blog</h1>
+        <h1>Welcome to the Op-Ed Blog</h1>
+        <p>Where ideas are shared and discussed.</p>
     </header>
     <main>
-        <section id="home">
-            <h2>Home</h2>
-            <p>Hello! I'm glad you're here. Explore my blog and projects.</p>
-        </section>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I'm a passionate developer who loves coding and open-source collaboration.</p>
-        </section>
-        <section id="projects">
-            <h2>Projects</h2>
-            <ul>
-                <li><a href="https://github.com/yourusername/project1" target="_blank">Project 1</a></li>
-                <li><a href="https://github.com/yourusername/project2" target="_blank">Project 2</a></li>
-                <li><a href="https://github.com/yourusername/project3" target="_blank">Project 3</a></li>
-            </ul>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>You can reach me at: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <!-- First Op-Ed -->
+        <article>
+            <h2>Op-Ed: The Future of Technology</h2>
+            <p>
+                Technology is advancing at an unprecedented pace, and its potential to shape our lives is enormous. 
+                But with great power comes great responsibility. How do we ensure ethical development of AI and other tools?
+            </p>
+            <footer>By <strong>Author 1</strong></footer>
+        </article>
+
+        <!-- Second Op-Ed -->
+        <article>
+            <h2>Op-Ed: The Climate Crisis</h2>
+            <p>
+                As the effects of climate change become more pronounced, it’s critical that individuals and governments take action now.
+                The time for debate has passed; we need solutions and accountability.
+            </p>
+            <footer>By <strong>Author 2</strong></footer>
+        </article>
+
+        <!-- Comment Section -->
+        <section id="comments-section">
+            <h3>Comments</h3>
+            <form id="comment-form">
+                <textarea id="comment-input" placeholder="Write your comment here..." rows="4" required></textarea>
+                <button type="submit">Post Comment</button>
+            </form>
+            <div id="comments-list">
+                <!-- User comments will appear here -->
+            </div>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+        <p>&copy; 2024 Op-Ed Blog. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
-
