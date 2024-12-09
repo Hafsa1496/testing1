@@ -1,4 +1,4 @@
-// Handles comments
+// Handles comments for the journal
 document.addEventListener('DOMContentLoaded', () => {
     const commentForm = document.getElementById('comment-form');
     const commentInput = document.getElementById('comment-input');
